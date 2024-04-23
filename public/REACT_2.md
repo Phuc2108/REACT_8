@@ -1,0 +1,2 @@
+- Props là loại thuộc tính truyền dữ liệu các file trong framework thông qua 'props'
+- muốn biết cách hoạt động, hãy xem qua các file để rõ hơn

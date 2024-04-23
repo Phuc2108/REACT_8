@@ -4,10 +4,12 @@ import Prettycure from './component/Prettycure'
 export default function App() {
   return (
    <div>
-     <h1>Hiển thị mảng hoặc danh sách </h1>
+     <h1>Props
 
-     <Prettycure /> 
+     <Prettycure name = "Cure Sky" /> 
+      </h1>
    </div>
      
   )
-} //Đây là file nhập các component, xuất ra index.jsx
+} 
+// ở đây có 1 file component được gắn thuộc tính name = "Cure Sky", thuộc tính đó sẽ truyền vào file Prettycure.jsx

@@ -1,7 +1,7 @@
-export default function CureBlack() {
+export default function CureBlack(props) {
    return (
      <div>
-     <h1> Im Black</h1>
+     <h3>  Im Black {props.power1}</h3>
      </div>
    )
-} //Đây là file component con, hỗ trợ và xuất ra  comp chính
+} //các comp con được nhận thuộc tính từ prettycure.jsx với tên thuộc tính khác nhau

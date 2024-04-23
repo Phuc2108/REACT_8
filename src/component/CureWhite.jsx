@@ -1,8 +1,8 @@
-export default function CureWhite() {
+export default function CureWhite(props) {
    return (
      <div>
-     <h1> Im White</h1>
+     <h3> Im White {props.power2} </h3>
      </div>
    )
-} //Đây là file component con, hỗ trợ và xuất ra  comp chính
+} //các comp con được nhận thuộc tính từ prettycure.jsx với tên thuộc tính khác nhau
 
