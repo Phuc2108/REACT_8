@@ -4,10 +4,10 @@ import Prettycure from './component/Prettycure'
 export default function App() {
   return (
    <div>
-     <h1>Props
+     <h1> Array map in React</h1>
 
-     <Prettycure name = "Cure Sky" /> 
-      </h1>
+     <Prettycure  /> 
+      
    </div>
      
   )

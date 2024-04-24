@@ -1,4 +1,5 @@
-export default function CureWhite( {power2} ) {
+export default function CureWhite( props ) {
+  const { power2} = props;
    return (
      <div>
      <h3> Im White {power2} </h3>

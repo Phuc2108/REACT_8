@@ -1,25 +1,18 @@
 import CureBlack from './CureBlack'
 import CureWhite from './CureWhite'
-export default function Prettycure( {name} ) {
-  
+export default function Prettycure() {
+  const charater = ['Sore Harewataru', 'Nijigaoka Mashiro', 'Yuunagi Tsubasa', 'Hijiri Ageha', 'Ellee-chan']
   
   return(
    <div>
-     <h3>
-       Hello {name}
-     </h3>
-     
-     <h3>
-       <CureBlack power1 = 'physics' />
-       <CureWhite power2 = 'magical' />
-     </h3>
+     <ul>
+       {charater.map((cure) =>(
+     <h1 key = {cure}> {cure} </h1>
+       )
+          )
+            }
+     </ul>
    </div>
 )
-
-
-  // thay vì để prop ta viết thẳng {thuộc tính} từ App.jsx
-  //tương tự truyền thuộc tính vào các comp con
-  
-  
 
 };
