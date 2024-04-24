@@ -1,12 +1,12 @@
 import CureBlack from './CureBlack'
 import CureWhite from './CureWhite'
-export default function Prettycure(props) {
-  console.log(props);
+export default function Prettycure( {name} ) {
+  
   
   return(
    <div>
      <h3>
-       Hello {props.name}
+       Hello {name}
      </h3>
      
      <h3>
@@ -17,7 +17,7 @@ export default function Prettycure(props) {
 )
 
 
-  // file này được truyền thuộc tính ở app.jsx thông qua props 
+  // thay vì để prop ta viết thẳng {thuộc tính} từ App.jsx
   //tương tự truyền thuộc tính vào các comp con
   
   
