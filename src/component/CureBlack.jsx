@@ -1,7 +1,7 @@
-export default function CureBlack( {power1} ) {
+export default function CureBlack(props) {
    return (
      <div>
-     <h3>  Im Black {power1}</h3>
+       <h1> Hello {props.preCure1.name} {props.preCure1.age} {props.preCure1.live} </h1>
      </div>
    )
-} //các comp con được nhận thuộc tính từ prettycure.jsx với tên thuộc tính khác nhau
+} // các thuộc tính và giá trị từ Pretty.jsx được truyền vào đây thông qua props
