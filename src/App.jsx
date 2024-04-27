@@ -2,18 +2,13 @@ import './App.css'
 import Prettycure from './component/Prettycure'
 
 export default function App() {
-  const preCure = {
-    name : "Cure Beauty",
-    age : [1, 4],
-    live : "Japan"
-    }
+  
   return (
-   <div>
-     <h1> Truyền mảng và đối tượng tới các thành phần bằng props
-</h1>
+      <div>
+     <h1> Hiển thị thuộc tính và giá trị của đối tượng trong mảng </h1>
 
-     <Prettycure preCure = {preCure} /> 
-      
+     <Prettycure  /> 
+
    </div>
      
   )

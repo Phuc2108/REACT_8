@@ -1,25 +1,52 @@
 import CureBlack from './CureBlack'
 import CureWhite from './CureWhite'
 export default function Prettycure(props) {
-  const preCure1 = {
-    name : "Cure Butterfly",
-    age : [1, 8],
-    live : "American"
-  }
+    //const charater = ['Sore Harewataru', 'Nijigaoka Mashiro', 'Yuunagi Tsubasa', 'Hijiri Ageha', 'Ellee-chan']
+  const charater = [
+    {
+      name :"Sore Harewataru",
+      age : "14",
+      type : "Cure Sky 🌌"
+    } ,
+    
+    {
+      name :"Nijigaoka Mashiro",
+      age : "15",
+      type : "Cure Prism 🌈⃤"
+  } ,
 
-  const preCure2 = {
-    name : "Cure Wing",
-    age : [1, 2],
-    live : "England"
+  
+    {
+      name :"Yuunagi Tsubasa",
+      age : "12",
+      type : "Cure Wing 🪽"
+  } ,
+  
+    {
+      name :"Hijiri Ageha",
+      age : "18",
+      type : "Cure Butterfly 🦋"
+  } ,
+  
+    {
+      name :"Ellee-chan",
+      age : "1",
+      type : "Cure Majesty ⚜️"
   }
+  
+  ];
   return(
-   <div>
-     <h1> Hello {props.preCure.name} {props.preCure.age} {props.preCure.live} </h1>
-     
-     
-     <CureBlack preCure1 = {preCure1}/>
-     <CureWhite preCure2 = {preCure2}/>
-     
+      <div>
+     <ul>
+       {charater.map((cure) =>(
+     <h1 key = {cure.name}>
+       <li> {""} {cure.name} {cure.age} {cure.type}
+       </li>
+     </h1>
+       )
+          )
+            }
+     </ul>
    </div>
 )
 

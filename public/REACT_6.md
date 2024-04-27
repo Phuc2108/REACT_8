@@ -1,0 +1,1 @@
+- Bài này từ bài 4, có thêm thuộc tính và giá trị từ đối tượng `ở trong mảng`được viết trước
