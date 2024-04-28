@@ -5,7 +5,7 @@ export default function App() {
   
   return (
       <div>
-     <h1> Hiển thị thuộc tính và giá trị của đối tượng trong mảng </h1>
+     <h1> Điều kiện trong REACT </h1>
 
      <Prettycure  /> 
 
