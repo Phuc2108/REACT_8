@@ -9,4 +9,4 @@ return (
 
   
    );
-} // ở đây sử dụng toán tử 3 ngôi gồm 1 vế hỏi và 2 vế 2 bên dấu 2 chấm
+} // các thuộc tính và giá trị từ Prettycure.jsx được truyền vào đây thông qua props ( { } ), và có thể sử dụng toán tử 3 ngôi
