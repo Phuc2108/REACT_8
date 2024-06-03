@@ -1,0 +1,2 @@
+- Kết xuất các thành phần bên trong vòng lặp là kết xuất các comp bên trong một vòng lặp (loop), ví dụ như trong một vòng lặp `map()`. Điều này cho phép bạn tạo ra nhiều components dựa trên dữ liệu được trả về từ một mảng hoặc một danh sách thay vì hiển thị 1 comp
+- Bài này có sử dụng điều kiện & toán tử 3 ngôi 
