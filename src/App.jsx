@@ -5,7 +5,7 @@ export default function App() {
   
   return (
       <div>
-     <h1> Điều kiện trong REACT </h1>
+     <h1> REACT example </h1>
 
      <Prettycure  /> 
 
@@ -13,4 +13,4 @@ export default function App() {
      
   )
 } 
-// các thuộc tính và giá trị ở preCure gắn vào component và được truyền vào comp Prettycure.jsx
+// hãy bắt đầu từ Prettycure.jsx
