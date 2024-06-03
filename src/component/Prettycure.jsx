@@ -44,7 +44,7 @@ export default function Prettycure(props) {
      
         <ul>
        {charater.map((cure) =>(
-     //<h1 key = {cure.name}>
+    //<h1 key = {cure.name}>
       // <li> {""} {cure.name} {cure.age} {cure.type} {cure.directly ? "✅️" : ""}
      //  </li> (nội bộ trong 1 comp)
   //   </h1>
@@ -65,4 +65,8 @@ export default function Prettycure(props) {
 };
 
 
-// ở đây là điều kiện if else dựa trên kết quả ở const, nếu true nó sẽ chọn phần tử hoặc comp đầu tiên, nếu false thì ngược lại 
+// ở đây là điều kiện if else dựa trên kết quả ở const, nếu true nó sẽ chọn phần tử hoặc comp đầu tiên, nếu false thì ngược lại; phần "//" là dùng toán tử 3 ngôi trong nội bộ comp
+
+//Tiếp theo là ta đặt comp khác kết xuất qua các prop nhất định (đặt theo thuộc tính) và truyền vào loại các biến
+
+// Prop "key" là 1 prop đặc biệt giúp xác định các comp duy nhất (gắn liền với comp), giá trị của key thường là giá trị duy nhất như id hoặc tên của item
